@@ -54,10 +54,10 @@ platform:
 # build Configuration, i.e. Debug, Release, etc.
 configuration:
    - Debug
-   #- Release
+   - Release
 
 build:
   parallel: true                  # enable MSBuild parallel builds
   project: app_veyor_test.sln      # path to Visual Studio solution or project
   # MSBuild verbosity level
-  verbosity: detailed
+  verbosity: normal
