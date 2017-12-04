@@ -45,7 +45,7 @@ cache:
 #---------------------------------#
 
 # build platform, i.e. x86, x64, Any CPU. This setting is optional.
-platform: x86, x64
+#platform: x86, x64
 
 # to add several platforms to build matrix:
 #platform:
@@ -53,9 +53,9 @@ platform: x86, x64
 #  - Any CPU
 
 # build Configuration, i.e. Debug, Release, etc.
-configuration: 
-   - Debug
-   - Release
+#configuration: 
+   #- Debug
+   #- Release
 
 build:
   parallel: true                  # enable MSBuild parallel builds
