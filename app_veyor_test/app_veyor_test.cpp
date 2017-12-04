@@ -6,7 +6,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	printf("Hellow AppVeyor\n");
+	printf("Hello AppVeyor\n");
 	return 0;
 }
 
